@@ -1,0 +1,234 @@
+
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins';
+    height: 100vh;
+}
+
+#wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.main {
+    background-image: linear-gradient(180deg, #162C4B, #5B0C0C)
+}
+
+/*header scetion*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 3.6em;
+}
+
+.logo {
+    width: 140px;
+    height: 140px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 3em;
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#active {
+    border-bottom: 2px solid white;
+    border-color: #D22021;
+}
+
+/*hero section*/
+
+.hero {
+    display: flex;
+    gap: 8em;
+    margin-top: 4em;
+}
+
+.left {
+    width: 45%;
+    margin-top: 4em;
+    display: flex;
+    flex-direction: column;
+    gap: 2.8em;
+}
+
+h1 {
+    font-family: 'Roboto Slab';
+    font-size: 4.8rem;
+    margin: 0;
+    color: white;
+}
+
+.subhead {
+    font-size: 1.8rem;
+    color: white;
+    margin: 0;
+}
+
+.cta {
+    display: flex;
+    align-items: center;
+    gap: 2.4em
+}
+
+.primary a {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 8px;
+    padding: 12px 50px;
+    font-size: 1.6rem;
+    font-weight: 500;
+    display: inline-block;
+}
+
+.tertiary {
+    display: flex;
+    font-size: 1.6rem;
+    gap: 10px;
+    align-items: center;
+}
+
+.right {
+    flex-grow: 1;
+}
+
+.favorite {
+    display: flex;
+    justify-content: center;
+    margin-top: 48px;
+    margin-bottom: 40px;
+    font-size: 3.6rem;
+    color: #C60C0D;
+    font-weight: 800;
+    font-family: 'Roboto Slab';
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    gap: 4.8em;
+
+}
+
+.card {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1.8em;
+}
+
+.description {
+    margin: 0;
+    align-self: center;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.movie {
+    height: 209px;
+    width: auto;
+    border: 10px solid #3882F6;
+    border-radius: 8px;
+}
+
+.quote {
+    background-color: #D2DFF8;
+    padding: 33px;
+    margin-top: 4.8em;
+    text-align: center;
+}
+
+.saying {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;;
+    gap: 2.4em;
+}
+
+.row-boat {
+    display: flex;
+    font-size: 3.2rem;
+    font-style: italic;
+    font-weight: 600;
+    margin: 0;
+    color: #162C4B;
+    padding: 0 210px
+}
+
+.kai-credits {
+    font-size: 1.6rem;
+    font-weight: 900;
+    color: #C60C0D;
+    margin: 0;
+}
+
+.update {
+    display: flex;
+    background-color: #D22021;
+    border-radius: 8px;
+    justify-content: space-between;
+    padding: 56px 150px;
+    margin-top: 4.8em;
+    align-items: center;
+}
+
+span {
+    display: flex;
+    flex-direction: column;
+    gap: .05em;
+}
+
+.news-head {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 600;
+    color: white;
+}
+
+.news-subhead {
+    margin: 0;
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: #BCBCBC;
+}
+
+.secondary a {
+    background-color: #D22021;
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 15px 30px;
+    color: white;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+footer {
+    background-color: #162C4B;
+    color: white;
+    text-align: center;
+    font-size: 1.6rem;
+    padding: 41px;
+    margin-top: 4.8em;
+}
+
+footer p {
+    margin: 0;
+}
